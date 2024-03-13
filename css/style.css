@@ -146,6 +146,8 @@
 
   /*padding:5px 20px 40px 10px; pensar na ordem no relogio que gira pracima - direita -baixo -esquerda, os valores são colocados nessa ordem */
 
+
+  /* 21 Bordas */
   .border{
     border:5px solid red;
     padding:10px;
@@ -174,3 +176,34 @@
     padding:15px;
     border-radius:25px;
   }
+
+
+
+/* 22 box Model */
+  .box-model{
+    margin: 20px;
+    background-color: aquamarine;
+    padding:15px 25px 
+    border: 2px solid red;
+    width:200px;
+    height:400px;
+  }
+
+  /* DESAFIO 03 */
+
+  .lorem{
+    margin: 20px;
+    background-color: #a5f;
+    padding:25px 35px
+    border: 2px solid red;
+    width: 400px;
+    height:150px;
+  }
+  #desafio{
+    background-color: #000;
+    color: royalblue;
+    outline-style:solid;
+    padding:15px;
+    border-radius: 25px;
+  }
+  
